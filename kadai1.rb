@@ -1,11 +1,13 @@
-for i in 1..30
+for i in 1..100
 
   if i % 5 == 0 and i & 3 == 0
-    puts "FizzBazz!"
+    puts 'FizzBazz!'
   else if i % 3 == 0
-    puts "Fizz!"
+    puts 'Fizz!'
   else if i % 5 == 0
-    puts "Bazz!"
+    puts 'Bazz!'
   else
     puts i
+  end
+end
 
