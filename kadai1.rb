@@ -6,6 +6,8 @@ for i in 1..100
     puts 'Fizz!'
   else if i % 5 == 0
     puts 'Bazz!'
+  else if i % 7 == 0
+    puts 'git!'
   else
     puts i
   end
